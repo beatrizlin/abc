@@ -34,6 +34,9 @@
     <Content Include="public\images\Green.jpg" />
     <Content Include="public\images\pineapples.jpg" />
     <Content Include="public\images\river.jpg" />
+    <Content Include="views\pages\file\upload.ejs">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="routes\account.js" />
     <Content Include="routes\file.js" />
     <Content Include="routes\index.js">
@@ -69,6 +72,7 @@
     <Content Include="views\partials\head.ejs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="uploads1\" />
     <Folder Include="routes\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />

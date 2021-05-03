@@ -12,6 +12,7 @@ var account = require("./routes/account.js");
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'uploads1')));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //======================================
