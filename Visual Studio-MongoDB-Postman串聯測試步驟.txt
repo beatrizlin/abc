@@ -1,0 +1,5 @@
+>於所在專案用CMD開啟>nodemon server.js
+>打開C:\Program Files\MongoDB\Server\4.4\bin\mongod.exe
+>打開Postman
+>在"GET"輸入>http://localhost:1337/api/products
+另開視窗輸入>http://localhost:1337/api/products/AIEN12student
