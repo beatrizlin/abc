@@ -1,0 +1,3 @@
+C:\temp\MitigateHpp\MitigateHpp\obj\Debug\MitigateHpp.njsprojAssemblyReference.cache
+C:\temp\MitigateHpp\MitigateHpp\obj\Debug\MitigateHpp.njsproj.CoreCompileInputs.cache
+C:\temp\MitigateHpp\MitigateHpp\bin\Microsoft.NodejsTools.WebRole.dll

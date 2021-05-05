@@ -1,0 +1,2 @@
+I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\SpreadOperator\SpreadOperator\obj\Debug\SpreadOperator.njsproj.CoreCompileInputs.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\SpreadOperator\SpreadOperator\bin\Microsoft.NodejsTools.WebRole.dll

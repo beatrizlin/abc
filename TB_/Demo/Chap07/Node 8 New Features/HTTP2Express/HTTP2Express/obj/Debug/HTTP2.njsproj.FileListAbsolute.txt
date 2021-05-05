@@ -1,0 +1,6 @@
+I:\包班\精格電子\Part8\Demo\Chap02\HTTP2\HTTP2\obj\Debug\HTTP2.njsprojAssemblyReference.cache
+I:\包班\精格電子\Part8\Demo\Chap02\HTTP2\HTTP2\obj\Debug\HTTP2.njsproj.CoreCompileInputs.cache
+I:\包班\精格電子\Part8\Demo\Chap02\HTTP2\HTTP2\bin\Microsoft.NodejsTools.WebRole.dll
+C:\temp\HTTP2\HTTP2\obj\Debug\HTTP2.njsprojAssemblyReference.cache
+C:\temp\HTTP2\HTTP2\obj\Debug\HTTP2.njsproj.CoreCompileInputs.cache
+C:\temp\HTTP2\HTTP2\bin\Microsoft.NodejsTools.WebRole.dll

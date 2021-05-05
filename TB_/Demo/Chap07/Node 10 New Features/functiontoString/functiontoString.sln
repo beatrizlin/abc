@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "functiontoString", "functiontoString\functiontoString.njsproj", "{6A5B3C62-119C-43E4-B418-CA919A7FFAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A5B3C62-119C-43E4-B418-CA919A7FFAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5B3C62-119C-43E4-B418-CA919A7FFAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5B3C62-119C-43E4-B418-CA919A7FFAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5B3C62-119C-43E4-B418-CA919A7FFAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {452FB6DF-E7EB-41B4-B309-FA56041075E9}
+	EndGlobalSection
+EndGlobal

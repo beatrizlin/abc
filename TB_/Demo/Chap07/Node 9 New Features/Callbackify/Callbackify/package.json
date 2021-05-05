@@ -1,0 +1,9 @@
+{
+  "name": "callbackify",
+  "version": "0.0.0",
+  "description": "Callbackify",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

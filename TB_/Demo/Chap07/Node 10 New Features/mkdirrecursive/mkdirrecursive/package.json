@@ -1,0 +1,9 @@
+{
+  "name": "mkdirrecursive",
+  "version": "0.0.0",
+  "description": "mkdirrecursive",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

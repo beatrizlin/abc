@@ -1,0 +1,2 @@
+C:\temp\UseDDOS\UseDDOS\obj\Debug\UseDDOS.njsproj.CoreCompileInputs.cache
+C:\temp\UseDDOS\UseDDOS\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,196 @@
+================================================================================
+==== Node Report ===============================================================
+
+Event: exception, location: "OnUncaughtException"
+Filename: node-report.20190612.145955.3864.001.txt
+Dump event time:  2019/06/12 14:59:55
+Module load time: 2019/06/12 14:59:55
+Process ID: 3864
+Command line: "C:\Program Files\nodejs\node.exe" "F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\PostMortemDiagnosticsDebugging\PostMortemDiagnosticsDebugging\server.js"
+
+Node.js version: v12.4.0
+(v8: 7.4.288.27-node.18, uv: 1.29.1, zlib: 1.2.11, brotli: 1.0.7, ares: 1.15.0,
+ modules: 72, nghttp2: 1.38.0, napi: 4, llhttp: 1.1.3, http_parser: 2.8.0,
+ openssl: 1.1.1b, cldr: 35.1, icu: 64.2, tz: 2019a, unicode: 12.1)
+
+node-report version: 2.2.7 (built against Node.js v12.4.0, 64 bit)
+
+OS version: Windows 10
+
+Machine: DESKTOP-BBUN8C7 
+
+================================================================================
+==== JavaScript Stack Trace ====================================================
+
+JavaScript VM state: JS
+
+ 0: [pc=0x000000AC9502D79C] emit (events.js:177:7)
+ 1: [pc=0x000000CA308AADED] emitErrorNT (net.js:1253:8)
+ 2: [pc=0x000000CA308A9D48] processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+================================================================================
+==== Native Stack Trace ========================================================
+
+ 0: [pc=0x00007FF95D8B7AE5]
+ 1: [pc=0x00007FF95D8BEF17]
+ 2: [pc=0x00007FF6C42B6D70] v8::internal::Isolate::ScheduleThrow [+2889]
+ 3: [pc=0x00007FF6C458C3E0] v8::internal::OptimizingCompileDispatcher::Unblock [+123230]
+ 4: [pc=0x00007FF6C49A25E0] v8::internal::NativesCollection<0>::GetScriptsSource [+662454]
+
+================================================================================
+==== JavaScript Heap and Garbage Collector =====================================
+
+Heap space name: read_only_space
+    Memory size: 524,288 bytes, committed memory: 524,288 bytes
+    Capacity: 523,976 bytes, used: 31,712 bytes, available: 492,264 bytes
+Heap space name: new_space
+    Memory size: 2,097,152 bytes, committed memory: 2,097,152 bytes
+    Capacity: 1,047,952 bytes, used: 313,760 bytes, available: 734,192 bytes
+Heap space name: old_space
+    Memory size: 2,744,320 bytes, committed memory: 2,744,320 bytes
+    Capacity: 2,391,656 bytes, used: 1,894,664 bytes, available: 496,992 bytes
+Heap space name: code_space
+    Memory size: 688,128 bytes, committed memory: 688,128 bytes
+    Capacity: 154,880 bytes, used: 154,880 bytes, available: 0 bytes
+Heap space name: map_space
+    Memory size: 528,384 bytes, committed memory: 528,384 bytes
+    Capacity: 296,080 bytes, used: 296,080 bytes, available: 0 bytes
+Heap space name: large_object_space
+    Memory size: 0 bytes, committed memory: 0 bytes
+    Capacity: 0 bytes, used: 0 bytes, available: 0 bytes
+Heap space name: code_large_object_space
+    Memory size: 0 bytes, committed memory: 0 bytes
+    Capacity: 0 bytes, used: 0 bytes, available: 0 bytes
+Heap space name: new_large_object_space
+    Memory size: 0 bytes, committed memory: 0 bytes
+    Capacity: 1,047,952 bytes, used: 0 bytes, available: 1,047,952 bytes
+
+Total heap memory size: 6,582,272 bytes
+Total heap committed memory: 6,582,272 bytes
+Total used heap memory: 2,691,096 bytes
+Total available heap memory: 2,194,004,424 bytes
+
+Heap memory limit: 2,197,815,296
+
+================================================================================
+==== Node.js libuv Handle Summary ==============================================
+
+(Flags: R=Ref, A=Active)
+Flags  Type      Address             Details
+[-A]   async     0000000127D2281350  
+[--]   timer     0000000127D3C02CD8  repeat: 0, timeout in: 1270555949451 ms
+[-A]   check     0000000127D3C02D78  
+[R-]   idle      0000000127D3C02DF0  
+[--]   prepare   0000000127D3C02E68  
+[--]   check     0000000127D3C02EE0  
+[-A]   async     0000000127D3C05910  
+[-A]   async     0000007FF6C562ACD0  
+[-A]   async     0000007FF6C562ABD0  
+[R-]   tcp       0000000127D3C69420  , send buffer size: 0, recv buffer size: 0, write queue size: 0
+
+================================================================================
+==== System Information ========================================================
+
+Environment variables
+  ALLUSERSPROFILE=C:\ProgramData
+  APPDATA=C:\Users\Student\AppData\Roaming
+  ChocolateyInstall=C:\ProgramData\chocolatey
+  ChocolateyLastPathUpdate=132042589617128253
+  CommonProgramFiles=C:\Program Files\Common Files
+  CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  CommonProgramW6432=C:\Program Files\Common Files
+  COMPUTERNAME=DESKTOP-BBUN8C7
+  ComSpec=C:\WINDOWS\system32\cmd.exe
+  DriverData=C:\Windows\System32\Drivers\DriverData
+  FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+  FPS_BROWSER_USER_PROFILE_STRING=Default
+  GTK_BASEPATH=C:\Program Files (x86)\GtkSharp\2.12\
+  HOMEDRIVE=C:
+  HOMEPATH=\Users\Student
+  JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_161
+  LOCALAPPDATA=C:\Users\Student\AppData\Local
+  LOGONSERVER=\\DESKTOP-BBUN8C7
+  MSBuildLoadMicrosoftTargetsReadOnly=true
+  MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\
+  npm_config_node_gyp=C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js
+  npm_config_python=C:\Python27\python.exe
+  NUMBER_OF_PROCESSORS=8
+  OneDrive=C:\Users\Student\OneDrive
+  OS=Windows_NT
+  Path=C:\Python27\;C:\Python27\Scripts;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Users\Student\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Student\AppData\Local\Programs\Python\Python36\;C:\Users\Student\AppData\Local\Microsoft\WindowsApps;C:\Users\Student\AppData\Roaming\npm;
+  PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  PkgDefApplicationConfigFile=C:\Users\Student\AppData\Local\Microsoft\VisualStudio\16.0_3c15e6aa\devenv.exe.config
+  PORT=1337
+  PROCESSOR_ARCHITECTURE=AMD64
+  PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+  PROCESSOR_LEVEL=6
+  PROCESSOR_REVISION=3c03
+  ProgramData=C:\ProgramData
+  ProgramFiles=C:\Program Files
+  ProgramFiles(x86)=C:\Program Files (x86)
+  ProgramW6432=C:\Program Files
+  PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\
+  PUBLIC=C:\Users\Public
+  SESSIONNAME=Console
+  SystemDrive=C:
+  SystemRoot=C:\WINDOWS
+  TEMP=C:\Users\Student\AppData\Local\Temp
+  ThreadedWaitDialogDpiContext=-2
+  TMP=C:\Users\Student\AppData\Local\Temp
+  USERDOMAIN=DESKTOP-BBUN8C7
+  USERDOMAIN_ROAMINGPROFILE=DESKTOP-BBUN8C7
+  USERNAME=Student
+  USERPROFILE=C:\Users\Student
+  VisualStudioDir=C:\Users\Student\Documents\Visual Studio 2019
+  VisualStudioEdition=Microsoft Visual Studio Enterprise 2019
+  VisualStudioVersion=16.0
+  VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+  VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+  VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+  VSAPPIDDIR=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
+  VSAPPIDNAME=devenv.exe
+  VSLANG=1028
+  VSSKUEDITION=Enterprise
+  windir=C:\WINDOWS
+  _NTVS_PID=1660
+
+Loaded libraries
+  C:\Program Files\nodejs\node.exe
+  C:\WINDOWS\SYSTEM32\ntdll.dll
+  C:\WINDOWS\System32\KERNEL32.DLL
+  C:\WINDOWS\System32\KERNELBASE.dll
+  C:\WINDOWS\System32\WS2_32.dll
+  C:\WINDOWS\System32\RPCRT4.dll
+  C:\WINDOWS\System32\ADVAPI32.dll
+  C:\WINDOWS\System32\msvcrt.dll
+  C:\WINDOWS\System32\sechost.dll
+  C:\WINDOWS\System32\USER32.dll
+  C:\WINDOWS\SYSTEM32\dbghelp.dll
+  C:\WINDOWS\System32\win32u.dll
+  C:\WINDOWS\System32\ucrtbase.dll
+  C:\WINDOWS\System32\GDI32.dll
+  C:\WINDOWS\System32\gdi32full.dll
+  C:\WINDOWS\System32\msvcp_win.dll
+  C:\WINDOWS\System32\PSAPI.DLL
+  C:\WINDOWS\System32\CRYPT32.dll
+  C:\WINDOWS\System32\MSASN1.dll
+  C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+  C:\WINDOWS\SYSTEM32\USERENV.dll
+  C:\WINDOWS\System32\profapi.dll
+  C:\WINDOWS\SYSTEM32\bcrypt.dll
+  C:\WINDOWS\SYSTEM32\WINMM.dll
+  C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+  C:\WINDOWS\System32\cfgmgr32.dll
+  C:\WINDOWS\System32\IMM32.DLL
+  C:\WINDOWS\System32\powrprof.dll
+  C:\WINDOWS\system32\uxtheme.dll
+  C:\WINDOWS\System32\combase.dll
+  C:\WINDOWS\System32\bcryptPrimitives.dll
+  C:\WINDOWS\system32\mswsock.dll
+  C:\WINDOWS\System32\kernel.appcore.dll
+  \\?\F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\PostMortemDiagnosticsDebugging\PostMortemDiagnosticsDebugging\node_modules\node-report\api.node
+  C:\WINDOWS\SYSTEM32\NETAPI32.dll
+  C:\WINDOWS\SYSTEM32\SRVCLI.DLL
+  C:\WINDOWS\SYSTEM32\NETUTILS.DLL
+
+================================================================================

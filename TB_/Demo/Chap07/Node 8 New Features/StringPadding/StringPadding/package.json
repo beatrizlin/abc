@@ -1,0 +1,9 @@
+{
+  "name": "string-padding",
+  "version": "0.0.0",
+  "description": "StringPadding",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

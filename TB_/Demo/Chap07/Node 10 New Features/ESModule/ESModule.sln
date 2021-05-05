@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ESModule", "ESModule\ESModule.njsproj", "{30F99B42-3F1A-4587-A3D4-864D84B06015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F99B42-3F1A-4587-A3D4-864D84B06015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F99B42-3F1A-4587-A3D4-864D84B06015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F99B42-3F1A-4587-A3D4-864D84B06015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F99B42-3F1A-4587-A3D4-864D84B06015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B8EE9D0-17AE-4130-97E1-FCA77D0DDA46}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+{
+  "name": "heap-dump",
+  "version": "0.0.0",
+  "description": "HeapDump",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

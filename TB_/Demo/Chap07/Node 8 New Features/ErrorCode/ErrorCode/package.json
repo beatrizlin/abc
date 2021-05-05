@@ -1,0 +1,9 @@
+{
+  "name": "error-code",
+  "version": "0.0.0",
+  "description": "ErrorCode",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

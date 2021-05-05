@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 var express = require('express');
 var port = process.env.PORT || 1337;
 
@@ -10,7 +10,7 @@ var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-//app.use(cors());
+app.use(cors());
 
 //=================
 app.use("/api", productService);

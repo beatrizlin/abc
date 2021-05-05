@@ -1,0 +1,12 @@
+{
+  "name": "esmodule",
+  "version": "0.0.0",
+  "description": "ESModule",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

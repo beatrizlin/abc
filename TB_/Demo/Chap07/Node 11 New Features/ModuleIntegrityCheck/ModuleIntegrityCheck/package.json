@@ -1,0 +1,10 @@
+{
+  "name": "module-integrity-check",
+  "version": "0.0.0",
+  "description": "ModuleIntegrityCheck",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {}
+}

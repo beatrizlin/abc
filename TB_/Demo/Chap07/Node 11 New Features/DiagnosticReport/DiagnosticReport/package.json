@@ -1,0 +1,9 @@
+{
+  "name": "diagnostic-api",
+  "version": "0.0.0",
+  "description": "DiagnosticAPI",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

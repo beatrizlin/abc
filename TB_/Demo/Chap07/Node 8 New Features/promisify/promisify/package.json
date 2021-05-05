@@ -1,0 +1,9 @@
+{
+  "name": "promisify",
+  "version": "0.0.0",
+  "description": "promisify",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

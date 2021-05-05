@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+</head>
+<body class="bg-info">
+    <div class="container">
+        <div class="jumbotron">
+            <h2>MongoDB in action!</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <table id="ProductsTable" class="table table-bordered table-sm">
+                <thead>
+                    <tr>
+<!--                         <th>ID</th>  -->
+                        <th>產品名稱</th>
+                        <th>產品單價</th>
+                        <th>庫存量</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>     
+    
+    <script>
+        $(document).ready(function () {	
+	        var langMap = {
+            'en':'English',
+            'zh-TW':'Chinese-traditional'
+            };
+            function getLanguage(){
+                var lang = navigator.language || navigator.userLanguage;
+                return 'i18n/' + langMap[lang] + '.json';
+            }
+        var table = $('#ProductsTable').DataTable({
+            language:{
+                    url: getLanguage()
+                },    
+                "paging": true,
+                "pageLength": 5,
+                "processing": true,
+                "ordering":true,
+                "serverSide": true,
+                 'ajax': {
+                     'type': 'post',
+                     'url': '/GetProducts',
+                 },
+                'columns':
+                    [
+/*                     { 'data': '_id', "defaultContent": "", 'name': '_id' }, */
+                    { 'data': 'title', "defaultContent": "", 'name': 'title' },
+                    { 'data': 'price', "defaultContent": "", 'name': 'price' },
+                    { 'data': 'instock', "defaultContent": "", 'name': 'instock' }
+                    ],
+                "columnDefs": [
+                    {
+                        "searchable": false,
+                        "targets": 0
+                    }
+                ],
+                select: true,
+                dom: 'Bfrtip',
+            });
+        });
+    </script>
+</body>
+</html>

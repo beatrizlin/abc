@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:3000/api/products",
+                data: {
+                    "productid": 4,
+                    "title": "AIEN100",
+                    "price": 22000000,
+                    "instock": 0
+                },
+            }).done(function (data) {
+                alert(JSON.stringify(data));
+            }).fail(function (err) {
+                alert(err.responseText)
+            });
+        });
+    </script>
+</body>
+</html>

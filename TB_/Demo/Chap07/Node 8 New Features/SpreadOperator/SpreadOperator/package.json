@@ -1,0 +1,9 @@
+{
+  "name": "spread-operator",
+  "version": "0.0.0",
+  "description": "SpreadOperator",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

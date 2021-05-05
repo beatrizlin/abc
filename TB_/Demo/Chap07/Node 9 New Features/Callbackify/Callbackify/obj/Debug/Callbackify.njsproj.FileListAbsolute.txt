@@ -1,0 +1,2 @@
+F:\包班\精格電子\Part8\Demo\Chap02\Node 9 New Features\Callbackify\Callbackify\obj\Debug\Callbackify.njsproj.CoreCompileInputs.cache
+F:\包班\精格電子\Part8\Demo\Chap02\Node 9 New Features\Callbackify\Callbackify\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SecureServerHeader", "SecureServerHeader\SecureServerHeader.njsproj", "{8AA5BD91-A780-4065-88B6-16AF59940F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA5BD91-A780-4065-88B6-16AF59940F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA5BD91-A780-4065-88B6-16AF59940F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA5BD91-A780-4065-88B6-16AF59940F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA5BD91-A780-4065-88B6-16AF59940F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE936A9-456B-4646-8D0B-4BF55B2D1288}
+	EndGlobalSection
+EndGlobal

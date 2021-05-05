@@ -1,0 +1,3 @@
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\BigInt\BigInt\obj\Debug\BigInt.njsprojAssemblyReference.cache
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\BigInt\BigInt\obj\Debug\BigInt.njsproj.CoreCompileInputs.cache
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\BigInt\BigInt\bin\Microsoft.NodejsTools.WebRole.dll

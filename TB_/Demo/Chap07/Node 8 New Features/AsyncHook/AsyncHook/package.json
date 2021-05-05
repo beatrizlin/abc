@@ -1,0 +1,9 @@
+{
+  "name": "async-hook",
+  "version": "0.0.0",
+  "description": "AsyncHook",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "functionto-string",
+  "version": "0.0.0",
+  "description": "functiontoString",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

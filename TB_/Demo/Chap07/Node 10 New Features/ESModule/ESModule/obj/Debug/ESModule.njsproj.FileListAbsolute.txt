@@ -1,0 +1,6 @@
+I:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\obj\Debug\ESModule.njsprojAssemblyReference.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\obj\Debug\ESModule.njsproj.CoreCompileInputs.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\bin\Microsoft.NodejsTools.WebRole.dll
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\obj\Debug\ESModule.njsprojAssemblyReference.cache
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\obj\Debug\ESModule.njsproj.CoreCompileInputs.cache
+F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ESModule\ESModule\bin\Microsoft.NodejsTools.WebRole.dll

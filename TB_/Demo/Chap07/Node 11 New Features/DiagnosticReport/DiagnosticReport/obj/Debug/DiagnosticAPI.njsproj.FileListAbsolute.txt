@@ -1,0 +1,2 @@
+I:\包班\精格電子\Part8\Demo\Chap02\Node 11 New Features\DiagnosticAPI\DiagnosticAPI\obj\Debug\DiagnosticAPI.njsproj.CoreCompileInputs.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 11 New Features\DiagnosticAPI\DiagnosticAPI\bin\Microsoft.NodejsTools.WebRole.dll

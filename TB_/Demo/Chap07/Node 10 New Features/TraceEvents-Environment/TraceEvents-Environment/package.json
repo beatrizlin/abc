@@ -1,0 +1,12 @@
+{
+  "name": "trace-events-perf",
+  "version": "0.0.0",
+  "description": "TraceEvents-Perf",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "trace_events": "0.0.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "copy-file",
+  "version": "0.0.0",
+  "description": "CopyFile",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

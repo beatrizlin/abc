@@ -1,0 +1,9 @@
+{
+  "name": "async-in-parallel",
+  "version": "0.0.0",
+  "description": "AsyncInParallel",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "fspromise",
+  "version": "0.0.0",
+  "description": "fspromise",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

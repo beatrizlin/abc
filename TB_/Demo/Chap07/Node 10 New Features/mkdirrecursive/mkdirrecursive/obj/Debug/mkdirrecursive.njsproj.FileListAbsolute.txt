@@ -1,0 +1,3 @@
+C:\Users\Student\Source\repos\mkdirrecursive\mkdirrecursive\obj\Debug\mkdirrecursive.njsprojAssemblyReference.cache
+C:\Users\Student\Source\repos\mkdirrecursive\mkdirrecursive\obj\Debug\mkdirrecursive.njsproj.CoreCompileInputs.cache
+C:\Users\Student\Source\repos\mkdirrecursive\mkdirrecursive\bin\Microsoft.NodejsTools.WebRole.dll

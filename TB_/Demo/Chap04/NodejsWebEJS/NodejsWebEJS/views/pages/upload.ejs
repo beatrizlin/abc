@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<%- include('../partials/head') -%>
+		<%- include('../partials/styles') -%>
+	</head>
+    <body>
+        <%- include('../partials/navbar') -%>
+        <div class="row" style="width:30%;margin:0 auto;padding:20px">
+            <div class="col-md-4">
+                <form method="post" action="/upload" enctype="multipart/form-data">
+                    <input id="file1" name="file1" type="file" />
+                    <button type="submit">
+                        <i class="glyphicon glyphicon-floppy-disk"></i>上傳
+                    </button>
+                </form>
+            </div>
+        </div>
+        <%- include('../partials/scripts') -%>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\Arguments\Arguments\obj\Debug\Arguments.njsprojAssemblyReference.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\Arguments\Arguments\obj\Debug\Arguments.njsproj.CoreCompileInputs.cache
+I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\Arguments\Arguments\bin\Microsoft.NodejsTools.WebRole.dll
