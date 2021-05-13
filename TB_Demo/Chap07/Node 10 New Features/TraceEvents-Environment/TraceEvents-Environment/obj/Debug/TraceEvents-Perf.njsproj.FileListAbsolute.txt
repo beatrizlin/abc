@@ -1,3 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\TraceEvents-Perf\TraceEvents-Perf\obj\Debug\TraceEvents-Perf.njsprojAssemblyReference.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\TraceEvents-Perf\TraceEvents-Perf\obj\Debug\TraceEvents-Perf.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\TraceEvents-Perf\TraceEvents-Perf\bin\Microsoft.NodejsTools.WebRole.dll

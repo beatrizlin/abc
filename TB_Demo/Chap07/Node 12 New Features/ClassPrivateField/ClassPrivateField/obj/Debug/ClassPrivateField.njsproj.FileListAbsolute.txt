@@ -1,3 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\ClassPrivateField\ClassPrivateField\obj\Debug\ClassPrivateField.njsprojAssemblyReference.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\ClassPrivateField\ClassPrivateField\obj\Debug\ClassPrivateField.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\ClassPrivateField\ClassPrivateField\bin\Microsoft.NodejsTools.WebRole.dll

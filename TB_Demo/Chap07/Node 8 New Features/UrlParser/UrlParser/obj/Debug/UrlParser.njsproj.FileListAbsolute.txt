@@ -1,3 +1,0 @@
-C:\temp\UrlParser\UrlParser\obj\Debug\UrlParser.njsprojAssemblyReference.cache
-C:\temp\UrlParser\UrlParser\obj\Debug\UrlParser.njsproj.CoreCompileInputs.cache
-C:\temp\UrlParser\UrlParser\bin\Microsoft.NodejsTools.WebRole.dll

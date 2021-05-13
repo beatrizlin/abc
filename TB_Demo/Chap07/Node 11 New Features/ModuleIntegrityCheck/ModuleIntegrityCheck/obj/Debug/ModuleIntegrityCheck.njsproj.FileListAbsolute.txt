@@ -1,3 +1,0 @@
-I:\包班\精格電子\Part8\Demo\Chap02\Node 11 New Features\ModuleIntegrityCheck\ModuleIntegrityCheck\obj\Debug\ModuleIntegrityCheck.njsprojAssemblyReference.cache
-I:\包班\精格電子\Part8\Demo\Chap02\Node 11 New Features\ModuleIntegrityCheck\ModuleIntegrityCheck\obj\Debug\ModuleIntegrityCheck.njsproj.CoreCompileInputs.cache
-I:\包班\精格電子\Part8\Demo\Chap02\Node 11 New Features\ModuleIntegrityCheck\ModuleIntegrityCheck\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,3 +1,0 @@
-﻿# TraceEvents-Perf
-
-

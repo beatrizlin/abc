@@ -1,3 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\HeapDump\HeapDump\obj\Debug\HeapDump.njsprojAssemblyReference.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\HeapDump\HeapDump\obj\Debug\HeapDump.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 12 New Features\HeapDump\HeapDump\bin\Microsoft.NodejsTools.WebRole.dll

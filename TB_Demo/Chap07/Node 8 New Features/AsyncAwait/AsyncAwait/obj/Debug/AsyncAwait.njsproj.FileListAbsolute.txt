@@ -1,3 +1,0 @@
-C:\Users\Craig\source\repos\AsyncAwait\AsyncAwait\obj\Debug\AsyncAwait.njsprojAssemblyReference.cache
-C:\Users\Craig\source\repos\AsyncAwait\AsyncAwait\obj\Debug\AsyncAwait.njsproj.CoreCompileInputs.cache
-C:\Users\Craig\source\repos\AsyncAwait\AsyncAwait\bin\Microsoft.NodejsTools.WebRole.dll

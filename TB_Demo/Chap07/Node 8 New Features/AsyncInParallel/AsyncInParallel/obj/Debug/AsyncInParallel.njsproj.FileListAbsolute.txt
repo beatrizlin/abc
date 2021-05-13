@@ -1,2 +1,0 @@
-I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\AsyncInParallel\AsyncInParallel\obj\Debug\AsyncInParallel.njsproj.CoreCompileInputs.cache
-I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\AsyncInParallel\AsyncInParallel\bin\Microsoft.NodejsTools.WebRole.dll

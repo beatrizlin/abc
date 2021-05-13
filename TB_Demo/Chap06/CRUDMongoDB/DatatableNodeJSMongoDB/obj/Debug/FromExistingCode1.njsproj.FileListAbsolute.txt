@@ -1,3 +1,0 @@
-E:\網頁開發\Node.JS\Demo\Chap06\DatatableNodeJSMongoDB\obj\Debug\FromExistingCode1.njsprojAssemblyReference.cache
-E:\網頁開發\Node.JS\Demo\Chap06\DatatableNodeJSMongoDB\obj\Debug\FromExistingCode1.njsproj.CoreCompileInputs.cache
-E:\網頁開發\Node.JS\Demo\Chap06\DatatableNodeJSMongoDB\bin\Microsoft.NodejsTools.WebRole.dll

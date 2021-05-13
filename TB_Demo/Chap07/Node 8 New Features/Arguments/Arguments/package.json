@@ -1,9 +1,0 @@
-{
-  "name": "arguments",
-  "version": "0.0.0",
-  "description": "Arguments",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

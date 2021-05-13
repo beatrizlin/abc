@@ -1,2 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Features\PerfHooks\PerfHooks\obj\Debug\PerfHooks.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Features\PerfHooks\PerfHooks\bin\Microsoft.NodejsTools.WebRole.dll

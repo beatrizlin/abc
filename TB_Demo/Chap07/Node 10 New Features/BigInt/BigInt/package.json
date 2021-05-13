@@ -1,9 +1,0 @@
-{
-  "name": "big-int",
-  "version": "0.0.0",
-  "description": "BigInt",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

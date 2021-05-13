@@ -1,3 +1,0 @@
-D:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ErrorCode\ErrorCode\obj\Debug\ErrorCode.njsprojAssemblyReference.cache
-D:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ErrorCode\ErrorCode\obj\Debug\ErrorCode.njsproj.CoreCompileInputs.cache
-D:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\ErrorCode\ErrorCode\bin\Microsoft.NodejsTools.WebRole.dll

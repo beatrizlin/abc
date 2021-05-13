@@ -1,2 +1,0 @@
-C:\temp\SecureServerHeader\SecureServerHeader\obj\Debug\SecureServerHeader.njsproj.CoreCompileInputs.cache
-C:\temp\SecureServerHeader\SecureServerHeader\bin\Microsoft.NodejsTools.WebRole.dll

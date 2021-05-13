@@ -1,2 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\functiontoString\functiontoString\obj\Debug\functiontoString.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 10 New Features\functiontoString\functiontoString\bin\Microsoft.NodejsTools.WebRole.dll

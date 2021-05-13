@@ -1,9 +1,0 @@
-{
-  "name": "is-deep-strict-equal",
-  "version": "0.0.0",
-  "description": "IsDeepStrictEqual",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

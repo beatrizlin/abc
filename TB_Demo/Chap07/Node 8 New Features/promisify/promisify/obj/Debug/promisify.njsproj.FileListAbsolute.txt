@@ -1,3 +1,0 @@
-I:\包班\精格電子\Part8\Demo\Chap02\promisify\promisify\obj\Debug\promisify.njsprojAssemblyReference.cache
-I:\包班\精格電子\Part8\Demo\Chap02\promisify\promisify\obj\Debug\promisify.njsproj.CoreCompileInputs.cache
-I:\包班\精格電子\Part8\Demo\Chap02\promisify\promisify\bin\Microsoft.NodejsTools.WebRole.dll

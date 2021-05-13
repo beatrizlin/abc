@@ -1,3 +1,0 @@
-F:\包班\精格電子\Part8\Demo\Chap02\Node 9 New Features\IsDeepStrictEqual\IsDeepStrictEqual\obj\Debug\IsDeepStrictEqual.njsprojAssemblyReference.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 9 New Features\IsDeepStrictEqual\IsDeepStrictEqual\obj\Debug\IsDeepStrictEqual.njsproj.CoreCompileInputs.cache
-F:\包班\精格電子\Part8\Demo\Chap02\Node 9 New Features\IsDeepStrictEqual\IsDeepStrictEqual\bin\Microsoft.NodejsTools.WebRole.dll

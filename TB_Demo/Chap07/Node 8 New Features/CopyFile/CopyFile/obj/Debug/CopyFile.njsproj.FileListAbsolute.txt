@@ -1,2 +1,0 @@
-I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\CopyFile\CopyFile\obj\Debug\CopyFile.njsproj.CoreCompileInputs.cache
-I:\包班\精格電子\Part8\Demo\Chap02\Node 8 New Fatures\CopyFile\CopyFile\bin\Microsoft.NodejsTools.WebRole.dll

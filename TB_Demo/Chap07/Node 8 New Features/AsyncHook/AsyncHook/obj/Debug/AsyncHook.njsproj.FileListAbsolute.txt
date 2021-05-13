@@ -1,3 +1,0 @@
-C:\temp\AsyncHook\AsyncHook\obj\Debug\AsyncHook.njsprojAssemblyReference.cache
-C:\temp\AsyncHook\AsyncHook\obj\Debug\AsyncHook.njsproj.CoreCompileInputs.cache
-C:\temp\AsyncHook\AsyncHook\bin\Microsoft.NodejsTools.WebRole.dll

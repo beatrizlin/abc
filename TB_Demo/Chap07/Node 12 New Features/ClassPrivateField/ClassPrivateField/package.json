@@ -1,9 +1,0 @@
-{
-  "name": "class-private-field",
-  "version": "0.0.0",
-  "description": "ClassPrivateField",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

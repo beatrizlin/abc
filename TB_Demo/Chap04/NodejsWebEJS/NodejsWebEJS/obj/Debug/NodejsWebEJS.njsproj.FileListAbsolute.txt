@@ -1,6 +1,0 @@
-C:\MyNodeJS\NodejsWebEJS\NodejsWebEJS\obj\Debug\NodejsWebEJS.njsproj.CoreCompileInputs.cache
-C:\MyNodeJS\NodejsWebEJS\NodejsWebEJS\bin\Microsoft.NodejsTools.WebRole.dll
-C:\MyNodeJS\NodejsWebEJS\NodejsWebEJS\obj\Debug\NodejsWebEJS.njsprojAssemblyReference.cache
-C:\Shared\Demo\Chap04\NodejsWebEJS\NodejsWebEJS\obj\Debug\NodejsWebEJS.njsprojAssemblyReference.cache
-C:\Shared\Demo\Chap04\NodejsWebEJS\NodejsWebEJS\obj\Debug\NodejsWebEJS.njsproj.CoreCompileInputs.cache
-C:\Shared\Demo\Chap04\NodejsWebEJS\NodejsWebEJS\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,9 +1,0 @@
-{
-  "name": "global-process",
-  "version": "0.0.0",
-  "description": "GlobalProcess",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}
