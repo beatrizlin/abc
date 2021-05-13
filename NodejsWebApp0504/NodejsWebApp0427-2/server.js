@@ -1,6 +1,6 @@
 'use strict';
 var http = require('http');
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 1339;
 var path = require('path')
 var file = require('./routes/file.js');
 var bodyParser = require('body-parser');
