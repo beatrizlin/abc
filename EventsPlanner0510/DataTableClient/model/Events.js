@@ -19,5 +19,5 @@ var EventsSchema = new mongoose.Schema({
 }, schemaOptions);
 
 
-var Events = mongoose.model('Events', EventsSchema , 'AIEN12');
+var Events = mongoose.model('Events', EventsSchema , 'AIENMEMBER');
 module.exports = Events;

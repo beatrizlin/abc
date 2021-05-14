@@ -14,9 +14,9 @@ var schemaOptions = {
 var AppliesSchema = new mongoose.Schema({
 /*   _id:String, */
   aemail: String,
-  atitle:  String,
+  atitle:  String
 }, schemaOptions);
 
 
-var Applies = mongoose.model('Applies', AppliesSchema , 'AIEN12');
+var Applies = mongoose.model('Applies', AppliesSchema , 'AIENAPPLY');
 module.exports = Applies;

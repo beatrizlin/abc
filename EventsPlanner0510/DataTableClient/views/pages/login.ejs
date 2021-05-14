@@ -11,21 +11,27 @@
 </head>
 	<body>
 		<%- include('../partials/navbar')-%>
-		<form action="/account/login" method="post">
-			<div id="InsertMembers" class="container" style="width:50%; margin:0 auto;">
-				<div class="form-group">
-					<label for="email">電子信箱</label>
-					<input class="form-control" type="email" id="email" name="email" placeholder="請輸入電子信箱" required />
-				</div>
-				<div class="form-group">
-					<label for="password">密碼</label>
-					<input class="form-control" type="password" id="password" name="password" required />
-				</div>
-				<div class="form-group">
-					<button onclick="InsertMembers()" class="btn btn-primary"><i class="glyphicon glyphicon-apple"></i>  送出</button>
-				</div>
-			</div>
-		</form>
+        <div style="background-color: rgb(204, 255, 197);margin: auto 60px;border-radius:30px">
+            <!--<p Align=center><img src="images/apply.png" typeof="png"></p>-->
+            <br />
+            <h2 Align=center style="background-color: green;width:200px;margin:auto;padding:20px;border-radius:30px;color:white;line-height: 40px; text-shadow:3px 3px 3px #2F4F4F;"><i class="glyphicon glyphicon-user"></i><br />會員登入</h2>
+            <form action="/account/login" method="post">
+                <div id="InsertMembers" class="container" style="width:50%; margin:0 auto;">
+
+                    <div class="form-group" style="margin-top:20px;">
+                        <label for="email">電子信箱</label>
+                        <input class="form-control" type="email" id="email" name="email" placeholder="請輸入電子信箱" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密碼</label>
+                        <input class="form-control" type="password" id="password" name="password" required />
+                    </div>
+                    <div class="form-group" Align=center>
+                        <button onclick="InsertMembers()" class="btn btn-success"><i class="glyphicon glyphicon-apple"></i>  送出</button>
+                    </div>
+                </div>
+            </form>
+        </div>
 		<script>
 			function InsertMembers() {
             var memberInsert = {

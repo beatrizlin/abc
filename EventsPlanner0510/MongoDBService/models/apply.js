@@ -3,6 +3,6 @@ var Schema = mongoose.Schema;
 var ApplySchema = new Schema(
     {
         aemail: String,
-        atitle: String,
-    }, {collection:"AIEN12"});
+        atitle: String
+    }, {collection:"AIENAPPLY"});
 module.exports = mongoose.model('apply', ApplySchema);

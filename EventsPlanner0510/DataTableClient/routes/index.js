@@ -10,6 +10,9 @@ module.exports = function (router) {
 
     router.get('/apply', function (req, res) {
         res.render("pages/apply");
+    }).post(function (req, res) {
+        console.log(req.body.aemail);
+        console.log(req.body.atitle);
     });
 
     router.get('/:user', function (req, res) {

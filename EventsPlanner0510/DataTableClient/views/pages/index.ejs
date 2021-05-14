@@ -12,7 +12,7 @@
 </head>
 <body class="bg-info">
     <%- include('../partials/navbar')-%>
-    <!--以下為測試加入內容-->
+    <!--【旋轉木馬】-->
     <div id="my-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -56,7 +56,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <!--以上為測試加入內容-->
+    <!--【活動新增、修改、刪除】-->
     <ul class="nav nav-pills" style="padding:20px">
         <li role="presentation"><a href="#InsertProducts" data-toggle="tab">新增</a></li>
         <li role="presentation"><a href="#UpdateProducts" data-toggle="tab">修改</a></li>
@@ -64,7 +64,7 @@
     </ul>
     <div class="tab-content" style="padding:20px">
         <div id="InsertProducts" class="tab-pane fade">
-            <!-- 新增活動 -->
+            <!-- 欄位:新增活動 -->
             <div class="container">
                 <div class="form-group">
                     <label for="insertTitle">活動名稱</label>
@@ -84,7 +84,7 @@
             </div>
         </div>
         <div id="UpdateProducts" class="tab-pane fade">
-            <!-- 修改活動資料 -->
+            <!-- 欄位:修改活動資料 -->
             <div class="container">
                 <div class="form-group">
                     <label for="updateTitle">活動名稱</label>
@@ -104,7 +104,7 @@
             </div>
         </div>
         <div id="DeleteProducts" class="tab-pane fade">
-            <!-- 刪除活動 -->
+            <!-- 欄位:刪除活動 -->
             <div class="container">
                 <div class="form-group">
                     <label for="deleteTitle">活動名稱</label>
@@ -117,37 +117,7 @@
         </div>
     </div>
     <script>
-        function QueryProducts() {
-            $.ajax({
-                type: "GET",
-                url: "http://localhost:1337/api/products",
-            }).done(function (products) {
-                //alert(JSON.stringify(products));
-                var str = "";
-                str += "<table class='table table-striped table-hover'>";
-                str += "<thead>";
-                str += "<tr>";
-                str += "<td>活動名稱</td>";
-                str += "<td>日期</td>";
-                str += " <td>地點</td>";
-                str += "</tr>";
-                str += "</thead>";
-                str += "<tbody>";
-                $.each(products, function (index, product) {
-                    str += "<tr>";
-                    str += "<td>" + product.title + "</td>";
-                    str += "<td>" + product.price + "</td>";
-                    str += "<td>" + product.instock + "</td>";
-                    str += "</tr>";
-                });
-                str += "</tbody>";
-                str += "</table>";
-                $("#Products").html(str);
-            }).fail(function (error) {
-                alert(error.statusText);
-            });
-        }
-
+        //      <!-- 動作:新增活動 -->
         function InsertProducts() {
             var productInsert = {
                 title: $("#insertTitle").val(),
@@ -164,7 +134,7 @@
                 alert(err);
             });
         }
-
+        //      <!-- 動作:修改活動 -->
         function UpdateProducts() {
             var productUpdate = {
                 title: $("#updateTitle").val(),
@@ -181,7 +151,7 @@
                 alert(err);
             });
         };
-
+        //      <!-- 動作:刪除活動 -->
         function DeleteProducts() {
             $.ajax({
                 type: "delete",
@@ -198,12 +168,13 @@
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <!--【顯示所有活動】-->
     <div class="container">
         <div>
             <table id="ProductsTable" class="table table-bordered table-sm">
                 <thead>
                     <tr>
-                        <!--                         <th>ID</th>  -->
                         <th>日期</th>
                         <th>活動名稱</th>
                         <th>地點</th>
@@ -217,6 +188,7 @@
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 
     <script>
+        //      < !--動作: 顯示所有活動-- >
         $(document).ready(function () {
             var langMap = {
                 'en': 'English',
@@ -257,6 +229,6 @@
             });
         });
     </script>
- 
+
 </body>
 </html>

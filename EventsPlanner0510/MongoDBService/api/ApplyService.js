@@ -42,7 +42,7 @@ apirouter.route('/applies').post(function (req, res) {
         apply.updateOne({ aemail: req.body.aemail },
             {
                 aemail: req.body.aemail,
-                atitle: req.body.atitle,
+                atitle: req.body.atitle
             },
             function (err, result) {
                 if (err) {

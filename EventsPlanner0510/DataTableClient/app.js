@@ -27,8 +27,11 @@ app.get('/', function (req, res) {
 
 app.use('/account', account);
 
-router.get('/apply', function (req, res) {
+app.get('/apply', function (req, res) {
     res.render("pages/apply");
+}).post(function (req, res) {
+    console.log(req.body.aemail);
+    console.log(req.body.atitle);
 });
 
 app.get('*', function (req, res) {
