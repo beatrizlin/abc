@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{2D028D7B-B9BB-4159-9E83-6CC6FDC28E8B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AjaxClient/AjaxClient.html">
+    <Files>
+      <File FileName="AjaxClient/AjaxClient.html" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MongoDBService" expanded="True">
+            <Node name="AjaxClient" expanded="True">
+              <Node name="My Project" expanded="True" />
+            </Node>
+            <Node name="DataTableClient" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AjaxClient PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

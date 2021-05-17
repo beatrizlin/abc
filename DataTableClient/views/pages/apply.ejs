@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <%- include('../partials/head')-%>
+        <%- include('../partials/styles')-%>
+            <meta charset="utf-8" />
+            <title>報名 |*活動看板*</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+</head>
+
+<body>
+    <%- include('../partials/navbar')-%>
+        <!--欄位: 活動報名-->
+        <div style="background-color: rgb(253, 202, 196);margin: auto 60px;border-radius:30px">
+            <p Align=center><img src="images/apply.png"></p>
+            <div id="InsertApplies" class="container" style="width:50%; margin:0 auto;">
+                <div class="form-group">
+                    <label for="aemail">參加者信箱：</label>
+                    <input class="form-control" type="text" id="aemail" name="aemail" placeholder="" required />
+                </div>
+                <div class="form-group">
+                    <label for="atitle">報名活動項目：</label>
+                    <div id="Products"></div>
+                </div>
+                <div class="form-group" Align=center>
+                    <button onclick="InsertApplies()" class="btn btn-danger"><i
+                            class="glyphicon glyphicon-apple"></i>送出</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <%- include('../partials/scripts')-%>
+            <!--動作: 活動報名-從DB帶出活動選項-->
+            <script>
+                $(document).ready(function () {
+                    $.ajax({
+                        type: "GET",
+                        url: "http://localhost:1337/api/products",
+                    }).done(function (products) {
+                        //alert(JSON.stringify(applies));
+                        var str = "";
+                        str += "<select id='atitle' name='atitle' >";
+                        $.each(products, function (index, product) {
+                            str += "<option>" + product.title + "</option>";
+                        });
+                        str += "</select>";
+                        $("#Products").html(str);
+                    }).fail(function (error) {
+                        alert(error.statusText);
+                    });
+                });
+            </script>
+            <!--動作: 活動報名-存入資料庫-->
+            <script>
+                function InsertApplies() {
+                    var applyInsert = {
+                        aemail: $("#aemail").val(),
+                        atitle: $("#atitle").val(),
+                    };
+                    $.ajax({
+                        type: "post",
+                        url: "http://localhost:1337/api/applies",
+                        data: applyInsert
+                    }).done(function (data) {
+                        alert("活動報名成功!")
+                    }).fail(function (err) {
+                        alert(err);
+                    });
+                }
+            </script>
+
+            <!--已報名活動列表-->
+            <div id="GetApplies" class="tab-pane fade in active" style="margin: auto 60px;">
+                已報名活動
+                <button id="QueryApply" onclick="QueryApplies()">查詢</button>
+                <div id="Applies"></div>
+            </div>
+            <script>
+                $('#QueryApply').click(function QueryApplies() {
+                    // const aemail = 'bbb@gmail.com'
+                    var aemail = $('#aemail').val()
+                    fetch(`http://localhost:1337/api/applies/${aemail}`).then(res => res.json())
+                        .then(data => {
+                            console.log(data)
+                            var str = "";
+                            str += "<table class='table table-striped table-hover'>";
+                            str += "<thead>";
+                            str += "<tr>";
+                            str += "<td>已報名參加者</td>";
+                            str += "<td>已報名活動</td>";
+                            str += "</tr>";
+                            str += "</thead>";
+                            $.each(data, function (index, apply) {
+                                str += "<tr>";
+                                str += "<td>" + apply.aemail + "</td>";
+                                str += "<td>" + apply.atitle + "</td>";
+                                str += "</tr>";
+                            });
+                            str += "</tbody>";
+                            str += "</table>";
+                            $("#Applies").html(str);
+                        })
+
+                    // $.ajax({
+                    //     type: "GET",
+                    //     url: "http://localhost:1337/api/applies/:aemail",
+                    // }).done(apply.find({ aemail: req.params.aemail }, function (applies) {
+                    //     //alert(JSON.stringify(applies));
+                    //     var str = "";
+                    //     str += "<table class='table table-striped table-hover'>";
+                    //     str += "<thead>";
+                    //     str += "<tr>";
+                    //     str += "<td>已報名參加者</td>";
+                    //     str += "<td>已報名活動</td>";
+                    //     str += "</tr>";
+                    //     str += "</thead>";
+                    //     $.each(applies, function (index, apply) {
+                    //         str += "<tr>";
+                    //         str += "<td>" + apply.aemail + "</td>";
+                    //         str += "<td>" + apply.atitle + "</td>";
+                    //         str += "</tr>";
+                    //     });
+                    //     str += "</tbody>";
+                    //     str += "</table>";
+                    //     $("#Applies").html(str);
+                    // }).fail(function (error) {
+                    //     alert(error.statusText);
+                    // }));
+                });
+            </script>
+
+            <br />
+
+</body>
+
+</html>
