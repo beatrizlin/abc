@@ -6,11 +6,11 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require("mongoose");
-//==¥H¤U¬°´ú¸Õ¼W¥[¤º®e
+//==ï¿½Hï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½Õ¼Wï¿½[ï¿½ï¿½ï¿½e
 var router = express.Router();
 var routes = require('./routes/index.js');
 var account = require("./routes/account.js");
-//==¥H¤W¬°´ú¸Õ¼W¥[¤º®e
+//==ï¿½Hï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Õ¼Wï¿½[ï¿½ï¿½ï¿½e
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
@@ -23,7 +23,6 @@ app.use('/', router);
 app.get('/', function (req, res) {
     res.render("pages/index");
 });
-
 
 app.use('/account', account);
 

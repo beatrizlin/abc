@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>張貼活動｜*找活動*</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
+    <%- include('../partials/head')-%>
+        <%- include('../partials/styles')-%>
+</head>
+
+<body class="bg-info" style="background-color:white">
+    <%- include('../partials/navbar')-%>
+        <!--【活動新增、修改、刪除】-->
+        <div style="background-color: rgb(173, 121, 111);margin: auto 60px;margin-top:80px;border-radius:30px">
+            <p Align=center><img src="images/publish.jpeg" style="width:30%; margin-top:20px;border-radius:30px; box-shadow:5px 5px 5px #3d3734;"><br/><h2 Align=center style="color:white; margin-top:20px;text-shadow:3px 3px 3px #3d3734;">張貼活動</h2></p>
+            <ul class="nav nav-pills" style="padding:20px;">
+                <li role="presentation"><a href="#InsertProducts" data-toggle="tab" class="btn btn-default">新增</a></li>
+                <li role="presentation"><a href="#UpdateProducts" data-toggle="tab" class="btn btn-default">修改</a></li>
+                <li role="presentation"><a href="#DeleteProducts" data-toggle="tab" class="btn btn-default">刪除</a></li>
+            </ul>
+
+            <div class="tab-content" style="padding:20px">
+                <div id="InsertProducts" class="tab-pane fade">
+                    <!-- 欄位:新增活動 -->
+                    <div class="container" style="width:50%; margin:0 auto">
+                        <div class="form-group">
+                            <label for="insertTitle">活動名稱</label>
+                            <input id="insertTitle" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="insertPrice">日期</label>
+                            <input id="insertPrice" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="insertInstock">地點</label>
+                            <input id="insertInstock" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <button onclick="InsertProducts()">新增活動</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="UpdateProducts" class="tab-pane fade">
+                    <!-- 欄位:修改活動資料 -->
+                    <div class="container"  style="width:50%; margin:0 auto">
+                        <div class="form-group">
+                            <label for="updateTitle">活動名稱</label>
+                            <input id="updateTitle" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="updatePrice">日期</label>
+                            <input id="updatePrice" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="updateInstock">地點</label>
+                            <input id="updateInstock" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <button onclick="UpdateProducts()">修改活動資料</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="DeleteProducts" class="tab-pane fade">
+                    <!-- 欄位:刪除活動 -->
+                    <div class="container"  style="width:50%; margin:0 auto">
+                        <div class="form-group">
+                            <label for="deleteTitle">活動名稱</label>
+                            <input id="deleteTitle" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <button onclick="DeleteProducts()">刪除活動</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            //      <!-- 動作:新增活動 -->
+            function InsertProducts() {
+                var productInsert = {
+                    title: $("#insertTitle").val(),
+                    price: $("#insertPrice").val(),
+                    instock: $("#insertInstock").val(),
+                };
+                $.ajax({
+                    type: "post",
+                    url: "http://localhost:1337/api/products",
+                    data: productInsert
+                }).done(function (data) {
+                    alert("活動新增成功!")
+                }).fail(function (err) {
+                    alert(err);
+                });
+            }
+            //      <!-- 動作:修改活動 -->
+            function UpdateProducts() {
+                var productUpdate = {
+                    title: $("#updateTitle").val(),
+                    price: $("#updatePrice").val(),
+                    instock: $("#updateInstock").val(),
+                };
+                $.ajax({
+                    type: "put",
+                    url: "http://localhost:1337/api/products",
+                    data: productUpdate
+                }).done(function (data) {
+                    alert("活動修改成功!")
+                }).fail(function (err) {
+                    alert(err);
+                });
+            };
+            //      <!-- 動作:刪除活動 -->
+            function DeleteProducts() {
+                $.ajax({
+                    type: "delete",
+                    url: "http://localhost:1337/api/products/" + $("#deleteTitle").val(),
+                }).done(function (data) {
+                    alert("活動刪除成功!")
+                }).fail(function (err) {
+                    alert(err);
+                });
+            };
+
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <br/>
+        <!--【顯示所有活動】-->
+        <div class="container">
+            <div>
+                <table id="ProductsTable" class="table table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>活動名稱</th>
+                            <th>地點</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+        <script>
+            //      < !--動作: 顯示所有活動-- >
+            $(document).ready(function () {
+                var langMap = {
+                    'en': 'English',
+                    'zh-TW': 'Chinese-traditional'
+                };
+                function getLanguage() {
+                    var lang = navigator.language || navigator.userLanguage;
+                    return 'i18n/' + langMap[lang] + '.json';
+                }
+                var table = $('#ProductsTable').DataTable({
+                    language: {
+                        url: getLanguage()
+                    },
+                    "paging": true,
+                    "pageLength": 5,
+                    "processing": true,
+                    "ordering": true,
+                    "serverSide": true,
+                    'ajax': {
+                        'type': 'post',
+                        'url': '/GetProducts',
+                    },
+                    'columns':
+                        [
+                            /*                     { 'data': '_id', "defaultContent": "", 'name': '_id' }, */
+                            { 'data': 'title', "defaultContent": "", 'name': 'title' },
+                            { 'data': 'price', "defaultContent": "", 'name': 'price' },
+                            { 'data': 'instock', "defaultContent": "", 'name': 'instock' }
+                        ],
+                    "columnDefs": [
+                        {
+                            "searchable": false,
+                            "targets": 0
+                        }
+                    ],
+                    select: true,
+                    dom: 'Bfrtip',
+                });
+            });
+        </script>
+
+</body>
+
+</html>

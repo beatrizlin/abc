@@ -15,6 +15,10 @@ module.exports = function (router) {
         console.log(req.body.atitle);
     });
 
+    router.get('/publish', function (req, res) {
+        res.render("pages/publish");
+    });
+
     router.get('/:user', function (req, res) {
         var user = req.params.user;
         res.render("pages/passdata", { username: user });
