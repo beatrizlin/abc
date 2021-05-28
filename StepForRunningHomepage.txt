@@ -1,0 +1,18 @@
+* 打開MongoD
+Finder >Macintosh HD >command+shift+G >前往檔案夾：usr
+>/usr/local/mongodb-macos-x86_64-4.4.5 2/bin >開啟Terminal >mongod
+
+*打開MongoDB Compass >connect
+
+*啟動app.js 和 server.sj
+/Users/beatriz_lin/Documents/12_Small Topic/EventsPlanner(20210528Final Version for Presentation)/DataTableClient
+>開啟Terminal >nodemon app.js
+
+/Users/beatriz_lin/Documents/12_Small Topic/EventsPlanner(20210528Final Version for Presentation)/MongoDBService
+>開啟Terminal >nodemon server.js
+
+*打開Ｇoogle Chrome
+>http://localhost:1338/
+
+
+*作業中，檢查Node.js和DB連結情形用：Postman
